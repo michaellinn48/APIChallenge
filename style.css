@@ -1,0 +1,54 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background-color: rgba(233, 14, 14, 0.796);
+    align-items: center;
+    margin-top: 3em;
+    height: 100vh;
+}
+
+h1 {
+    background-color: rgb(73, 230, 196);
+    align-content: center;
+    border-radius: 1rem;
+    border: ridge 6px rgba(255, 255, 255, 0.7);
+    width: 900px;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(28, 28, 28);
+    justify-content: space-around;
+}
+
+form input {
+    color: rgb(0, 79, 16);
+    font-weight: bold;
+    background-color: #89f0e2;
+    align-content: center;
+    border: groove 3px rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+form input:hover {
+    background-color: #073800;
+    color: honeydew;
+    cursor: pointer;
+}
+
+
+p {
+    font-size: small;
+}
+
+.pokemon-types {
+    font-size: small;
+}
+
+.pokemon-card {
+    background-color: rgb(73, 230, 196);
+    align-content: center;
+    border-radius: 1rem;
+    border: ridge 6px rgba(255, 255, 255, 0.7);
+}
